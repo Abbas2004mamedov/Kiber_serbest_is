@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skipfish</title>
+    <style>
+        body {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 27%;
+            background-color: darkgrey;
+        }
+        h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+        .image-container {
+            margin-top: 15px;
+            width: 600px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            margin-top: 15px;
+            width: 100%;
+            height: auto;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body><br> 
+    
+    <h1>Skipfish Kali Linux Tool</h1>
+    <p>Skipfish təhlükəsizlik skaneridir və veb proqramlardakı zəiflikləri aşkar etmək üçün istifadə olunur. 
+		Bu alət Açıq Veb Tətbiqi Təhlükəsizliyi Layihəsi (OWASP) tərəfindən nəşr olunan OWASP ZAP kimi digər məşhur
+		 təhlükəsizlik alətləri ilə istifadə edilə bilər.
+		Skipfish tez veb proqramları skan edir və müxtəlif boşluqları aşkarlayır. 
+		Bu zəifliklərə zəif parol siyasətləri, təhlükəsiz olmayan giriş nöqtələri, istismar imkanları, 
+		Saytlararası Skript (XSS), SQL inyeksiyası kimi ümumi hücum üsulları ilə istifadə edilə bilən səhvlər daxil
+		 ola bilər. Skipfish avtomatik olaraq veb proqramları skan edir, interaktiv nüfuz testi həyata keçirir və 
+		 zəiflikləri aşkar etmək üçün müxtəlif üsullardan istifadə edir.</p>
+    <div class="image-container">
+        <img src= C:\Users\Abbas\Desktop\kiberserbestis\shelp.jpg alt="Resim 1 Açıklaması">
+        
+    </div>
+    <p>Skipfish Kali linuxla yüklü gəlir. Digər toolara oxşar olaraq "--help" və ya"-h" istifadə edərək parametrlərinə baxılır.
+    </p>
+    <div class="image-container">
+        <img src= snx.jpg>
+        
+    </div>
+    <p>Təməl yazılış formasında tool adından sonra -o parametri ilə scan nəticələrinin saxlanılacağı qovluq verilir.
+        Ardı ilə də daha çox parametrlər artırılır.
+    </p>
+    
+    <h3>
+        Əsas parametrlər:
+    </h3>
+    <div class="image-container">
+        <img src=par.jpg >
+        
+            <p></br>
+            <ul>
+            <li> <strong>"-l"</strong> parametrinin qarşısında yazılan ədəd saniyədə neçə müraciyətın göndəriləciyi bəyan edir. </li>
+            
+            <li> <b>"-k"</b> parametrinin qarşısında saat:dəqiqə:saniyə müddəti verilir.Bu zaman scan'ın davam etmə müddətidir.</li>
+            
+            <li> <b>"-t"</b> qarşısında yazılan zaman (saniyə) müddətdində göndərilən müraciyətincavabını gözləyir.</li>
+         
+            <li> <b>"-v"</b> scan gedişatını daha az gostərir. </li>
+       
+            <li> <b>"-Q"</b> surətli modda scan edilir. Bu zaman bəzi açıqlar tapılmaya bilər.</li>
+        
+            <li> <b>"-İ"</b> scana bir sayt xəritəsi əlavə etmək üçün istifadə olunur. </li>
+        
+            <li>  <b>"-C"</b> scana cookie faylını əlavə etmək üçün istifadə olunur.</li>
+       
+            <li> <b>"-W"</b> scana Wordlist əlavə edir.</li>
+            </p>
+        </ul>
+        
+        <h4>İstifadəsi:</h4>
+    <div class="image-container">
+        <img src= test.jpg>
+        <p>Burda https://www.themevault.net/# sayti scan ediləcək və nəticələr Aciqlar qovluquna yazılacaq.</p>
+
+    <div class="image-container">
+        <img src= test2.jpg>
+        <img src= test3.jpg>
+        <p>Burda CTRL+C edərək scanı saxlayırıq və Firefox istifadə edərək nəticələrin saxlanildigi qovluqdaki "index.html" fayli açılır.</p><br>
+        <p>Nəticələr:</p>
+        <img src= netice.jpg>
+        <!-- Daha fazla resim eklemek için aynı yapıyı kopyalayabilirsiniz -->
+    
+</body>
+</html>
